@@ -27,7 +27,8 @@ public class EmailValidator implements TextWatcher {
 
     public boolean isValid() {
         return mIsValid;
-        ///Hello GIT
+        ///Hello GIT Branch Message
+        //Hot Fix Change
     }
 
     /**
