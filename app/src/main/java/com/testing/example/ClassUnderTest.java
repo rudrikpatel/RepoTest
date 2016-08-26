@@ -9,6 +9,7 @@ public class ClassUnderTest {
     private Context CONTEXT;
 
     public ClassUnderTest(Context context) {
+    //HOtFix3 Change
         CONTEXT = context;
     }
 
