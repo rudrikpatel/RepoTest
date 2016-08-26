@@ -4,7 +4,7 @@ package com.testing.example;
  * Created by Administrator on 8/24/2016.
  */
 public class Calculator {
-// Changing from issue4
+// Changing from issue4 Again
     public double sum(double a, double b) {
         return a + b;
     }
