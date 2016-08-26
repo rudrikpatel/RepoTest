@@ -5,6 +5,7 @@ package com.testing.example;
  */
 public class Calculator {
 
+    //Hot fix 4 CHange
     public double sum(double a, double b) {
         return a + b;
     }
