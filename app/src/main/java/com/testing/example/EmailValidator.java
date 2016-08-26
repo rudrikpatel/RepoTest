@@ -29,6 +29,7 @@ public class EmailValidator implements TextWatcher {
         return mIsValid;
         ///Hello GIT Branch Message
         //Hot Fix Change
+                //This is the changes in Issue1 Branch
     }
 
     /**
