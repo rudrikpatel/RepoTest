@@ -5,6 +5,7 @@ package com.testing.example;
  */
 public class Calculator {
 
+// Changing from issue4 Again
     //Hot fix 4 CHange
     public double sum(double a, double b) {
         return a + b;
