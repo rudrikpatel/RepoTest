@@ -9,7 +9,7 @@ import java.util.regex.Pattern;
  * Created by Administrator on 8/24/2016.
  */
 public class EmailValidator implements TextWatcher {
-
+// This is issue2 Branch
     /**
      * Email validation pattern.
      */
