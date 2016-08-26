@@ -10,6 +10,9 @@ import java.util.regex.Pattern;
  */
 public class EmailValidator implements TextWatcher {
 
+    // Branch Issue2 Code Here
+
+    // Branch Hot Fix Here
     /**
      * Email validation pattern.
      */
