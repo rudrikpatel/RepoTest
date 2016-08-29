@@ -1,12 +1,12 @@
 package com.testing.example;
 
-import org.hamcrest.core.Is;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
 import static org.hamcrest.core.Is.is;
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertThat;
 
 /**
  * Created by Administrator on 8/24/2016.
