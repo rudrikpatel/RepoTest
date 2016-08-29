@@ -1,7 +1,6 @@
 package com.testing.example;
 
 import android.content.Context;
-import android.util.Log;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
