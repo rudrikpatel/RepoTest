@@ -5,7 +5,7 @@ import android.os.Bundle;
 
 public class SecondActivity extends AppCompatActivity {
 
-    // Second
+    // Second aAcac
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
