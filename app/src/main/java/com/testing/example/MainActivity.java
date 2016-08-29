@@ -1,5 +1,6 @@
 package com.testing.example;
 
+import android.content.Intent;
 import android.location.Location;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -93,7 +94,7 @@ public class MainActivity extends AppCompatActivity implements
         tvSecondPage.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                
+                startActivity(new Intent(MainActivity.this, SecondActivity.class));
             }
         });
         mRequestingLocationUpdates = false;
