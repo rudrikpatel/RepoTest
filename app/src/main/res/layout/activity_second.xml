@@ -7,12 +7,11 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.testing.example.MainActivity">
+    tools:context="com.testing.example.SecondActivity">
 
-    <TextView
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_view"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center_horizontal"
-        android:text="@string/gotosecondpage"
-        android:id="@+id/tvSecondPage"/>
+        android:layout_height="match_parent"/>
+
 </RelativeLayout>

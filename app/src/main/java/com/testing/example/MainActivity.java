@@ -4,6 +4,8 @@ import android.location.Location;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
+import android.view.View;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.google.android.gms.common.ConnectionResult;
@@ -79,13 +81,21 @@ public class MainActivity extends AppCompatActivity implements
      */
     protected String mLastUpdateTime;
 
+    private TextView tvSecondPage;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        tvSecondPage = (TextView) findViewById(R.id.tvSecondPage);
 
 
+        tvSecondPage.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                
+            }
+        });
         mRequestingLocationUpdates = false;
         mLastUpdateTime = "";
 
