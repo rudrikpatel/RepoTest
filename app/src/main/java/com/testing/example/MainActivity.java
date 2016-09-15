@@ -107,7 +107,7 @@ public class MainActivity extends AppCompatActivity implements
         // LocationSettingsRequest objects.
         buildGoogleApiClient();
         createLocationRequest();
-        startLocationUpdates();
+//        startLocationUpdates();
     }
 
     protected synchronized void buildGoogleApiClient() {
