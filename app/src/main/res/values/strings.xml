@@ -2,5 +2,5 @@
     <string name="app_name">TestingExample</string>
     <string name="hello_word">Hello World</string>
     <string name="location_updated_message">Location Changed</string>
-    <string name="gotosecondpage">Go to second page</string>
+    <string name="gotosecondpage">Go to second page Jenkins</string>
 </resources>
