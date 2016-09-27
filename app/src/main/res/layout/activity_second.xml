@@ -17,5 +17,5 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Go Generate The Build"/>
+        android:text="Go Generate The Build here"/>
 </RelativeLayout>
